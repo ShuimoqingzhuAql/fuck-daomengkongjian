@@ -1,2 +1,5 @@
-# fuck-daomengkongjian
-大一萌新，fuck到梦空间，欢迎使用我写的python脚本，py小白，可能有些问题，issues
+# Fuck-到梦空间抢课系统
+pip install requests
+pip install pyDes
+别忘了pip安装
+建议Star原作者：https://github.com/kismetpro/fuck-daomengkongjian
