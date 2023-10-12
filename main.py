@@ -4,6 +4,8 @@ from pyDes import des, ECB, PAD_PKCS5
 import binascii
 import requests
 import time, datetime
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
 
 headers = {
     'standardUA': '{"channelName": "dmkj_Android", "countryCode": "CN", "createTime": 1604663529774, "device": "HUAWEI vmos","hardware": "vphw71", "modifyTime": 1604663529774, "operator": "%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8","screenResolution": "1080-2115", "startTime": 1605884705024, "sysVersion": "Android 25 7.1.2","system": "android", "uuid": "12:34:56:31:97:80", "version": "4.3.6"}',
